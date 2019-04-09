@@ -1,0 +1,15 @@
+body{
+  background-image: linear-gradient(to right top, #ffffff, #fbfafb, #f6f6f6, #f2f1f2, #eeeded);
+
+}
+
+h1{
+  color:white;
+}
+
+img{
+  margin-left: -20%;
+  margin-top: 25%;
+  box-shadow: 5px 5px black;
+}
+
