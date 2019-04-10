@@ -5,9 +5,9 @@ background-image: linear-gradient(to right top, #000000, #161616, #242424, #3333
 }
 nav{
 background-image: linear-gradient(to right top, #ffffff, #fbfafb, #f6f6f6, #f2f1f2, #eeeded);
-   margin-top: 50%;
+   margin-top: 40%;
     width: 350px;
-    height: 400px;
+    height: 450px;
     border:1px solid transparent;
     border-radius:5px;
     
@@ -55,7 +55,7 @@ h1{
 img{
     width:110px;
     position: absolute;
-    top:20%;
+    top:15%;
     left: 35%; 
 
 }.col-xs-12{
@@ -89,7 +89,7 @@ img{
 section{
 background-image: linear-gradient(to right top, #fafaff, #f3f2f6, #ebebed, #e4e3e5, #dcdcdc);
 height: 60px;
-margin-top: 10%;
+margin-top: 15%;
 }
 
 #cadastrar{
