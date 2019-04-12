@@ -3,13 +3,8 @@ body{
 
 }
 
-h1{
-  color:white;
-}
-
 img{
-  margin-left: -20%;
-  margin-top: 25%;
-  box-shadow: 5px 5px black;
+  margin-top: 5%;
+  border:2px solid black;
+  width: 100px;
 }
-
