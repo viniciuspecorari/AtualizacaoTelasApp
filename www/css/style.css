@@ -20,6 +20,23 @@ background-image: linear-gradient(to right top, #ffffff, #fbfafb, #f6f6f6, #f2f1
     margin-right:5%;
 }
 
+/* nav da pagina horarios */
+#horarios{
+background-image: linear-gradient(to right top, #ffffff, #fbfafb, #f6f6f6, #f2f1f2, #eeeded);
+width: 100%;
+margin-left: -0.5%;
+margin-top: 25%;
+}
+
+/* section do titulo horarios */
+
+#titHorario{
+  background-image: linear-gradient(to right top, #ffffff, #fbfafb, #f6f6f6, #f2f1f2, #eeeded);
+  border-radius:5px;
+  
+
+}
+
 /* Section do botão cadastrar na tela de login */
 section{
 background-image: linear-gradient(to right top, #fafaff, #f3f2f6, #ebebed, #e4e3e5, #dcdcdc);
@@ -115,9 +132,10 @@ Botões "btn" e btn com id=""
   color:white;
 }
 
-/* 
+/*  
 Tag <h1> é estilização de titulos 
 Tag <h2> é estilização de subtitulos 
+Tag <h3> é estilização das legendas da pagina horarios
 */
 
 h1{
@@ -143,7 +161,19 @@ h2{
   box-shadow: 5px 5px rgb(223, 222, 222);
   border-radius:3px;
   width:45% ;
+  text-align: left;
 
+}
+
+h3{
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: -15%;
+  border:2px solid transparent;
+  border-radius:3px;
+  box-shadow: 5px 5px rgb(223, 222, 222);
+  width:45% ;
+  text-align: left; 
 }
 
 /* Legendas tags <p> e <p id=""> */
@@ -155,9 +185,34 @@ p{
   
 }
 
-infoEsqueciSenha{
+#infoEsqueciSenha{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: justify;
   font-size: 16px;
   margin-top: 5%;
+}
+
+#lgLinha{
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  box-shadow: 5px 5px rgb(223, 222, 222);
+  width:80%;
+  margin-left: 10%;
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+
+#subLegendas{
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 5%;
+  text-align: left;
+  border:2px solid transparent;
+  border-radius: 2px;
+  box-shadow: 5px 5px rgb(223, 222, 222);
+  width: 90%;
 }
