@@ -88,11 +88,17 @@ margin-top: 15%;
 
 
 /* Imagens e icones */
-img{
+#icones{
     width:110px;
     position: absolute;
     top:15%;
     left: 35%; 
+}
+
+#fav{
+    width:80px;
+    margin-bottom:5%;
+    margin-left:70%;
 }
 
 /* 
@@ -102,7 +108,7 @@ Botões "btn" e btn com id=""
 /* Botão cadastrar da tela de Login com Id="" */
 #cadastrar{
   background-image: linear-gradient(to right top, #ffffff, #fbfafb, #f6f6f6, #f2f1f2, #eeeded);  
-  width: 105%;
+  width: 100%;
   margin-left: -20%;
   color: black;
   border:  linear-gradient(to right top, #eaeaeb, #e3e6e9, #dbe3e4, #d7dfdb, #d7dad1);
@@ -176,6 +182,16 @@ h3{
   text-align: left; 
 }
 
+h4{
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 0%;
+  border:2px solid transparent;
+  border-radius:3px;
+  box-shadow: 5px 5px rgb(223, 222, 222);
+  width:100% ;
+  text-align: left;
+}
 /* Legendas tags <p> e <p id=""> */
 p{
  font-size: 15px;
@@ -215,4 +231,10 @@ p{
   border-radius: 2px;
   box-shadow: 5px 5px rgb(223, 222, 222);
   width: 90%;
+}
+
+#resumoApp{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  text-align: justify;
 }
