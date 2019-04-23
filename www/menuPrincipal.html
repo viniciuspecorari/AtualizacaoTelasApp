@@ -5,12 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
   <script src="components/loader.js"></script>
-  <script src="lib/onsenui/js/onsenui.min.js"></script>
+  <script src="lib/onsenui/js/onsenui.min.js">
+  </script>
 
   <link rel="stylesheet" href="components/loader.css">
   <link rel="stylesheet" href="lib/onsenui/css/onsenui.css">
   <link rel="stylesheet" href="lib/onsenui/css/onsen-css-components.css">
   <link rel="stylesheet" href="css/style.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
 
   <!--- Jquery 3.1.1--->
  <script src="components/jquery-3.3.1.min.js"></script>
@@ -31,41 +34,59 @@
 <!-- Seção dos botões -->
   <div class="container">
 
-    <!-- Botão viagem -->
-    <div class="row">
-      <div class="col-xs-6">
-        <a href="telaViagem.html"><img src="imagens/viagem.png"></a>
+    <!-- Viagem -->
+      <div class="row" style="border:5px solid linear-gradient(to right top, #ffffff, #fbfafb, #f6f6f6, #f2f1f2, #eeeded);  ">
+        <div class="col-xs-5" style="border:5px solid linear-gradient(to right top, #ffffff, #fbfafb, #f6f6f6, #f2f1f2, #eeeded); background-color:black; border-radius:20px; color:white; float:left; margin-left:3%;">
+          <center>
+          <img src="imagens/viagem.png">
+          <p>Viagem</p>
+          </center>
+          </div>
+
+        <!-- Historico -->
+        <a href="historico.html"><div class="col-xs-5" style="border:5px solid linear-gradient(to right top, #ffffff, #fbfafb, #f6f6f6, #f2f1f2, #eeeded); background-color:black; border-radius:20px; color:white; float:right; margin-right:3%;">
+          <center>
+          <img src="imagens/historico.png">
+          <p>Historico</p>
+          </center>
+        </div></a>
+      </div>
+   
+  <!-- Horários -->
+      <div class="row" style="border:5px solid linear-gradient(to right top, #ffffff, #fbfafb, #f6f6f6, #f2f1f2, #eeeded);  margin-top:10%;">
+       <a href="horario.html"> <div class="col-xs-5" style="border:5px solid linear-gradient(to right top, #ffffff, #fbfafb, #f6f6f6, #f2f1f2, #eeeded); background-color:black; border-radius:20px; color:white; float:left; margin-left:3%; font-family:'Noto Sans', sans-serif;">
+          <center>
+          <img src="imagens/iconeHorario.png">
+          <p>Horario</p>
+          </center>
+          </div></a>
+
+        <!-- Favoritos -->
+        <a href="favoritos.html"><div class="col-xs-5" style="border:5px solid linear-gradient(to right top, #ffffff, #fbfafb, #f6f6f6, #f2f1f2, #eeeded); background-color:black; border-radius:20px; color:white; float:right; margin-right:3%;">
+          <center>
+          <img src="imagens/favoritar.png">
+          <p>Favoritos</p>
+          </center>
+        </div></a>
       </div>
 
-    <!-- Botão historico -->
-      <div class="col-xs-6">
-        <a href="historico.html"><img src="imagens/historico.png"></a>
-      </div>
-    </div>
+  <!-- Sobre -->
+      <div class="row" style="border:5px solid linear-gradient(to right top, #ffffff, #fbfafb, #f6f6f6, #f2f1f2, #eeeded);  margin-top:10%;">
+       <a href="sobreApp.html"> <div class="col-xs-5" style="border:5px solid linear-gradient(to right top, #ffffff, #fbfafb, #f6f6f6, #f2f1f2, #eeeded); background-color:black; border-radius:20px; color:white; float:left; margin-left:3%;">
+          <center>
+          <img src="imagens/sobre.png">
+          <p>Sobre</p>
+          </center>
+          </div></a>
 
-    <!-- Botão perfil -->
-    <div class="row" style="margin-top:40%;">
-      <div class="col-xs-6">
-        <a href="perfil.html"><img src="imagens/iconePerfil.png"></a>
+        <!--Perfil -->
+        <a href="perfil.html"><div class="col-xs-5" style="border:5px solid linear-gradient(to right top, #ffffff, #fbfafb, #f6f6f6, #f2f1f2, #eeeded); background-color:black; border-radius:20px; color:white; float:right; margin-right:3%;">
+          <center>
+          <img src="imagens/iconePerfil.png">
+          <p>Perfil</p>
+          </center>
+        </div></a>
       </div>
-
-      <!-- Botão horarios -->
-      <div class="col-xs-6">
-        <a href="horario.html"><img src="imagens/iconeHorario.png"></a>
-      </div>
-    </div>
-
-     <!-- Botão favoritos -->
-     <div class="row" style="margin-top:40%;">
-       <div class="col-xs-6">
-          <a href="favoritos.html"><img src="imagens/favoritar.png"></a>
-        </div>
-
-      <!-- Botão sobre -->
-      <div class="col-xs-6">
-        <a href="sobreApp.html"><img src="imagens/sobre.png"></a>
-      </div>
-    </div>
   </div>
 
 </body>
