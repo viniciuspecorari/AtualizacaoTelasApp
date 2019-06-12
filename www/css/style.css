@@ -174,12 +174,12 @@ h2{
 h3{
   font-size: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-left: -15%;
+  margin-left: 25%;
   border:2px solid transparent;
   border-radius:3px;
   box-shadow: 5px 5px rgb(223, 222, 222);
-  width:45% ;
-  text-align: left; 
+  text-align: center; 
+  width: 50%;
 }
 
 h4{
